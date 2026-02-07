@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import SpeechToText from "../components/SpeechtoText";
+import SpeechToText from "../components/SpeechToText";
 import { summarizeText } from "../ai/summarizer";
 import { getCurrentUser } from "../auth/auth";
 import noteImg from "../assets/notes.jpg";
